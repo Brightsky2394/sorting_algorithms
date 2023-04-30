@@ -26,6 +26,5 @@ int partition(int *array, int small, int big, size_t size);
 void sort(int *array, int small, int big, size_t size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **lst);
-void swap_node(listint_t **node, listint_t **list);
 void quick_sort_hoare(int *array, size_t size);
 #endif
