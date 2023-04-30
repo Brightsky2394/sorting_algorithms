@@ -28,13 +28,14 @@ pos = n;
 swp = true;
 }
 }
-m++;
-}
+
 array[pos] = array[m];
 array[m] = min;
-if (swap)
+if (swp)
 {
 print_array(array, size);
-swap = false;
+swp = false;
+}
+m++;
 }
 }
